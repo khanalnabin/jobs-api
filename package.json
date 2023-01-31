@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon app.js",
-	"start":"node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -19,14 +19,14 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19",
     "rate-limiter": "^0.2.0",
     "swagger-ui-express": "^4.4.0",
     "wrangler": "^2.0.16",
     "xss-clean": "^0.1.1",
     "yamljs": "^0.3.0"
   },
-
-  "engines":{
-	  "node":"18.x"
+  "engines": {
+    "node": "18.x"
   }
 }
